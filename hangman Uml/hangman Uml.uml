@@ -20,6 +20,12 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_8pPsAHOlEeqqm7nHTZSXUw" name="player" type="_zAGngHOlEeqqm7nHTZSXUw" association="_8pKMcHOlEeqqm7nHTZSXUw"/>
       </packagedElement>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_B4xUcHXhEeqFfLTJK8skYA" name="Logical View">
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_SiEB8HXhEeqFfLTJK8skYA" name="Hangman game"/>
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_XL5T0HXhEeqFfLTJK8skYA" name="Guess"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_kfFoMHXhEeqFfLTJK8skYA" client="_SiEB8HXhEeqFfLTJK8skYA" supplier="_0WvqUHOlEeqqm7nHTZSXUw"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_lNNScHXhEeqFfLTJK8skYA" client="_XL5T0HXhEeqFfLTJK8skYA" supplier="_3i-VwHOlEeqqm7nHTZSXUw"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_d3a9kHOlEeqqm7nHTZSXUw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d3bkoHOlEeqqm7nHTZSXUw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
